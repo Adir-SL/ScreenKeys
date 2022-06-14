@@ -22,5 +22,5 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('keydown', function(event) {
     console.log(event.key);
     document.getElementById("keysDisplay").innerText = event.key;
-    setTimeout(function(){ document.getElementById("keysDisplay").style.oapcity = "0"; }, 1000);
+    setTimeout(function(){ document.getElementById("keysDisplay").style.opacity = "0"; }, 1000);
 });
