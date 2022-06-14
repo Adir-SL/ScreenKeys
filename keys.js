@@ -9,6 +9,7 @@ function styleKeys(){
     sk.padding = "8px";
     sk.borderRadius = "8px";
     sk.backgroundColor = "#f4f4f4";
+    sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
 }
 
 document.addEventListener('DOMContentLoaded', function() {
