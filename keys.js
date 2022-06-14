@@ -8,6 +8,7 @@ function styleKeys(){
     sk.transform = "translate(-50%, 0)";
     sk.padding = "8px";
     sk.borderRadius = "8px";
+    sk.fontFamily = "sans-serif";
     sk.backgroundColor = "#f4f4f4";
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
 }
