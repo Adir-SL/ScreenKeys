@@ -12,6 +12,7 @@ function styleKeys(){
     sk.backgroundColor = "#f4f4f4";
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
     sk.transition = "opacity 300ms linear 0s";
+    setInterval(function(){ sk.oapcity = "0"; }, 1000);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
