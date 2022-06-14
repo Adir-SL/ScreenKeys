@@ -2,7 +2,7 @@ function styleKeys(){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
     sk.backgroundColor = "#f4f4f4";
-    sk.position = "absolute";
+    sk.position = "fixed";
     sk.left = "50%";
     sk.bottom = "16px"
     sk.transform = "translate(-50%, 0)";
