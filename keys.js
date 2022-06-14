@@ -4,6 +4,7 @@ function styleKeys(){
     sk.backgroundColor = "#f4f4f4";
     sk.position = "absolute";
     sk.left = "50%";
+    sk.bottom = "16px"
     sk.transform = "translate(-50%, 0)";
     sk.padding = "8px";
     sk.borderRadius = "8px";
