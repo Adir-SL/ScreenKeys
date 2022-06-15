@@ -1,7 +1,6 @@
 function styleKeys(){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
-    sk.opacity = "0";
     sk.backgroundColor = "#f4f4f4";
     sk.position = "fixed";
     sk.left = "50%";
@@ -12,6 +11,7 @@ function styleKeys(){
     sk.fontFamily = "sans-serif";
     sk.backgroundColor = "#f4f4f4";
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
+    sk.opacity = "0";
     sk.transition = "opacity 150ms linear 0s";
 }
 
