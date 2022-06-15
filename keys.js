@@ -1,6 +1,7 @@
 function styleKeys(){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
+    sk.opacity = "0";
     sk.backgroundColor = "#f4f4f4";
     sk.position = "fixed";
     sk.left = "50%";
