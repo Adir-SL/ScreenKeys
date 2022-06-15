@@ -25,5 +25,5 @@ window.addEventListener('keydown', function(event) {
     document.getElementById("keysDisplay").style.opacity = "1";
     console.log(event.key);
     document.getElementById("keysDisplay").innerText = event.key;
-    setTimeout(function(){ document.getElementById("keysDisplay").style.opacity = "0"; }, 1000);
+    document.timeMe = setTimeout(function(){ document.getElementById("keysDisplay").style.opacity = "0"; }, 1000);
 });
