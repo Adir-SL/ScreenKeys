@@ -26,22 +26,22 @@ function styleKeys(size = 1.5){
 function initKeys(size){
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
     styleKeys(size);
+    window.addEventListener('keydown', function(event) {
+        document.getElementById("keysDisplay").style.opacity = "1";
+        console.log(event.key);
+        if(document.getElementById("keysDisplay").innerText == ''){
+            document.getElementById("keysDisplay").innerText = event.key;
+        }else{
+            document.getElementById("keysDisplay").innerText += " + " + event.key;
+        }
+    
+        clearTimeout(document.timeMe);
+        document.timeMe = setTimeout(function(){
+            document.getElementById("keysDisplay").style.opacity = "0";
+            document.waitFor = setTimeout(function(){
+                document.getElementById("keysDisplay").innerText = '';
+            }, 100);
+        }, 500);
+    });
 }
 
-window.addEventListener('keydown', function(event) {
-    document.getElementById("keysDisplay").style.opacity = "1";
-    console.log(event.key);
-    if(document.getElementById("keysDisplay").innerText == ''){
-        document.getElementById("keysDisplay").innerText = event.key;
-    }else{
-        document.getElementById("keysDisplay").innerText += " + " + event.key;
-    }
-
-    clearTimeout(document.timeMe);
-    document.timeMe = setTimeout(function(){
-        document.getElementById("keysDisplay").style.opacity = "0";
-        document.waitFor = setTimeout(function(){
-            document.getElementById("keysDisplay").innerText = '';
-        }, 100);
-    }, 500);
-});
