@@ -1,4 +1,4 @@
-function styleKeys(){
+function styleKeys(size){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
     sk.backgroundColor = "#f4f4f4";
