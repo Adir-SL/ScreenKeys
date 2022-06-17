@@ -1,4 +1,4 @@
-function styleKeys(size){
+function styleKeys(size = 1.5){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
     sk.backgroundColor = "#f4f4f4";
@@ -9,6 +9,7 @@ function styleKeys(size){
     sk.padding = "8px";
     sk.borderRadius = "8px";
     sk.fontFamily = "sans-serif";
+    sk.fontSize = size + "em";
     sk.backgroundColor = "#f4f4f4";
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
     sk.opacity = "0";
