@@ -37,5 +37,5 @@ window.addEventListener('keydown', function(event) {
         document.waitFor = setTimeout(function(){
             document.getElementById("keysDisplay").innerText = '';
         }, 100);
-    }, 1000);
+    }, 500);
 });
