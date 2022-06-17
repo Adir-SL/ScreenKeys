@@ -18,11 +18,6 @@ function styleKeys(size = 1.5){
     sk.transition = "opacity 100ms linear 0s";
 }
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
-//     styleKeys(size);
-//  }, false);
-
 function initKeys(size){
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
     styleKeys(size);
@@ -44,4 +39,3 @@ function initKeys(size){
         }, 500);
     });
 }
-
