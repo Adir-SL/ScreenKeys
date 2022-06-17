@@ -28,7 +28,7 @@ window.addEventListener('keydown', function(event) {
     if(document.getElementById("keysDisplay").innerText == ''){
         document.getElementById("keysDisplay").innerText = event.key;
     }else{
-        document.getElementById("keysDisplay").innerText += event.key;
+        document.getElementById("keysDisplay").innerText += " + " + event.key;
     }
 
     clearTimeout(document.timeMe);
