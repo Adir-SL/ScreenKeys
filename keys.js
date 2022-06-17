@@ -25,10 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('keydown', function(event) {
     document.getElementById("keysDisplay").style.opacity = "1";
     console.log(event.key);
-    document.getElementById("keysDisplay").innerText = event.key;
+    if(document.getElementById("keysDisplay").innerText == ''){
+        document.getElementById("keysDisplay").innerText = event.key;
+    }else{
+        document.getElementById("keysDisplay").innerText += event.key;
+    }
+
     clearTimeout(document.timeMe);
     document.timeMe = setTimeout(function(){
         document.getElementById("keysDisplay").style.opacity = "0";
-        document.getElementById("keysDisplay").innerText = "";
+        document.waitFor = setTimeout(function(){
+            document.getElementById("keysDisplay").innerText = '';
+        }, 150);
     }, 1000);
 });
