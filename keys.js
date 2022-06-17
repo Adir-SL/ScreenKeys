@@ -13,6 +13,7 @@ function styleKeys(){
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
     sk.opacity = "0";
     sk.pointerEvents = "none";
+    sk.userSelect = "none";
     sk.transition = "opacity 150ms linear 0s";
 }
 
