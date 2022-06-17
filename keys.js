@@ -14,7 +14,7 @@ function styleKeys(){
     sk.opacity = "0";
     sk.pointerEvents = "none";
     sk.userSelect = "none";
-    sk.transition = "opacity 150ms linear 0s";
+    sk.transition = "opacity 100ms linear 0s";
 }
 
 document.addEventListener('DOMContentLoaded', function() {
