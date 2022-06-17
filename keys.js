@@ -36,6 +36,6 @@ window.addEventListener('keydown', function(event) {
         document.getElementById("keysDisplay").style.opacity = "0";
         document.waitFor = setTimeout(function(){
             document.getElementById("keysDisplay").innerText = '';
-        }, 150);
+        }, 100);
     }, 1000);
 });
