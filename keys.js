@@ -3,9 +3,6 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
     sk.all = "unset";
     sk.backgroundColor = "#f4f4f4";
     sk.position = "fixed";
-    sk.left = "50%";
-    sk.bottom = "16px"
-    sk.transform = "translate(-50%, 0)";
     sk.padding = "calc(" + size + "em / 2)";
     sk.borderRadius = "8px";
     sk.fontFamily = "sans-serif";
@@ -16,6 +13,16 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
     sk.pointerEvents = "none";
     sk.userSelect = "none";
     sk.transition = "opacity 100ms linear 0s";
+    sk.bottom = "16px";
+    if(posx == 'center'){
+        sk.left = "50%";
+        transformXtemp = "-50%";
+    }
+    if(posx == 'left'){
+        sk.left = "32px";
+        transformXtemp = "0";
+    }
+    sk.transform = "translate(-50%, 0)";
 }
 
 function initKeys(size){
