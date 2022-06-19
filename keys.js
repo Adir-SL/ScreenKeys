@@ -14,6 +14,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
     sk.userSelect = "none";
     sk.transition = "opacity 100ms linear 0s";
     sk.bottom = "16px";
+    alert(posx)
     if(posx == 'center'){
         sk.left = "50%";
         transformXtemp = "-50%";
@@ -25,9 +26,9 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
     sk.transform = "translate(" + transformXtemp + ", 0)";
 }
 
-function initKeys(size){
+function initKeys(size, posx, posy){
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
-    styleKeys(size);
+    styleKeys(size, posx, posy);
     window.addEventListener('keydown', function(event) {
         document.getElementById("keysDisplay").style.opacity = "1";
         console.log(event.key);
