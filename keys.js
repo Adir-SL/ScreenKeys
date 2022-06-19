@@ -14,7 +14,6 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
     sk.userSelect = "none";
     sk.transition = "opacity 100ms linear 0s";
     sk.bottom = "16px";
-    alert(posx)
     if(posx == 'center'){
         sk.left = "50%";
         transformXtemp = "-50%";
