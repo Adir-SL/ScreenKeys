@@ -22,6 +22,10 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
         sk.left = "32px";
         transformXtemp = "0";
     }
+    if(posx == 'right'){
+        sk.right = "32px";
+        transformXtemp = "0";
+    }
     sk.transform = "translate(" + transformXtemp + ", 0)";
 }
 
