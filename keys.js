@@ -35,7 +35,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
         transformYtemp = "0";
     }
     if(posy == 'bottom'){
-        sk.right = "32px";
+        sk.bottom = "32px";
         transformYtemp = "0";
     }
 
