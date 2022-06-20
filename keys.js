@@ -42,6 +42,9 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
 }
 
 function initKeys(size, posx, posy){
+
+    // size referes to the font-size (in em);
+
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
     styleKeys(size, posx, posy);
     window.addEventListener('keydown', function(event) {
