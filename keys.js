@@ -51,7 +51,7 @@ function initKeys(size, posx, posy){
     styleKeys(size, posx, posy);
     window.addEventListener('keydown', function(event) {
         document.getElementById("keysDisplay").style.opacity = "1";
-        // console.log(event.key);
+        
         if(document.getElementById("keysDisplay").innerText == ''){
             document.getElementById("keysDisplay").innerText = event.key;
         }else{
