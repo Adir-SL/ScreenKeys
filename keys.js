@@ -54,6 +54,7 @@ function initKeys(size, posx, posy){
         }
     
         clearTimeout(document.timeMe);
+        clearTimeout(document.waitFor);
         document.timeMe = setTimeout(function(){
             document.getElementById("keysDisplay").style.opacity = "0";
             document.waitFor = setTimeout(function(){
