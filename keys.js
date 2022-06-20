@@ -45,6 +45,7 @@ function initKeys(size, posx, posy){
 
     // size referes to the font-size (in em);
     // posx is the position in the x axis, can be 'left', 'right' or 'center';
+    // posy is the position in the y axis, can be 'top', 'bottom' or 'center';
 
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
     styleKeys(size, posx, posy);
