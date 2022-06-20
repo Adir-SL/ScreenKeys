@@ -26,7 +26,20 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom'){
         sk.right = "32px";
         transformXtemp = "0";
     }
-    sk.transform = "translate(" + transformXtemp + ", 0)";
+    if(posy == 'center'){
+        sk.top = "50%";
+        transformYtemp = "-50%";
+    }
+    if(posy == 'top'){
+        sk.top = "32px";
+        transformYtemp = "0";
+    }
+    if(posy == 'bottom'){
+        sk.right = "32px";
+        transformYtemp = "0";
+    }
+
+    sk.transform = "translate(" + transformXtemp + ", " + transformYtemp + ")";
 }
 
 function initKeys(size, posx, posy){
