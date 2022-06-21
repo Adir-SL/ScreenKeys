@@ -65,6 +65,6 @@ function initKeys(size, posx, posy, delay){
             document.waitFor = setTimeout(function(){
                 document.getElementById("keysDisplay").innerText = '';
             }, 100);
-        }, 500);
+        }, (delay+"ms"));
     });
 }
