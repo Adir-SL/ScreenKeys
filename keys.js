@@ -6,7 +6,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', 
     sk.borderRadius = "8px";
     sk.fontFamily = "sans-serif";
     sk.fontSize = size + "em";
-    sk.backgroundColor = "#f4f4f4";
+    sk.backgroundColor = bg;
     sk.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
     sk.opacity = "0";
     sk.pointerEvents = "none";
