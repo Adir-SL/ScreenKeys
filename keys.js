@@ -41,7 +41,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', 
     sk.transform = "translate(" + transformXtemp + ", " + transformYtemp + ")";
 }
 
-function initKeys(size, posx, posy, delay){
+function initKeys(size, posx, posy, delay, bg, txt){
 
     // size referes to the font-size (in em);
     // posx is the position in the x axis, can be 'left', 'right' or 'center';
