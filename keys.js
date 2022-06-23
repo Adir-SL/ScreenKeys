@@ -1,7 +1,6 @@
 function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', bg='#f4f4f4', txt='#333333'){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
-    sk.backgroundColor = "#f4f4f4";
     sk.position = "fixed";
     sk.padding = "calc(" + size + "em / 2)";
     sk.borderRadius = "8px";
