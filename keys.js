@@ -49,7 +49,7 @@ function initKeys(size, posx, posy, delay, bg, txt){
     // delay refers to the time (in milliseconds) it takes for the toast to disappear;
 
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
-    styleKeys(size, posx, posy);
+    styleKeys(size, posx, posy, delay, bg, txt);
     window.addEventListener('keydown', function(event) {
         document.getElementById("keysDisplay").style.opacity = "1";
         
