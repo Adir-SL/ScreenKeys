@@ -1,4 +1,4 @@
-function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500'){
+function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', bg='#f4f4f4', txt='#333333'){
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
     sk.backgroundColor = "#f4f4f4";
