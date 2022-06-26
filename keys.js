@@ -8,7 +8,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', 
     sk.fontSize = size + "em";
     sk.backgroundColor = bg;
     sk.color = txt;
-    sk.boxShadow = "0 4px 8px 0 #0000401a";
+    sk.boxShadow = "0 4px 8px 0 #000040ff";
     sk.opacity = "0";
     sk.pointerEvents = "none";
     sk.userSelect = "none";
