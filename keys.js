@@ -3,7 +3,7 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', 
     sk.all = "unset";
     sk.position = "fixed";
     sk.padding = "calc(" + size + "em / 2)";
-    sk.borderRadius = "8px";
+    sk.borderRadius = "12px";
     sk.fontFamily = "sans-serif";
     sk.fontSize = size + "em";
     sk.backgroundColor = bg;
