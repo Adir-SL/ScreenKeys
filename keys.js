@@ -2,10 +2,10 @@ function styleKeys(size = 1.5, posx = 'center', posy = 'bottom', delay = '500', 
     sk = document.getElementById("keysDisplay").style;
     sk.all = "unset";
     sk.position = "fixed";
-    sk.padding = "calc(" + size + "em / 2)";
+    sk.padding = "calc(" + size + "px / 2)";
     sk.borderRadius = "12px";
     sk.fontFamily = "sans-serif";
-    sk.fontSize = size + "em";
+    sk.fontSize = size + "px";
     sk.backgroundColor = bg;
     sk.color = txt;
     // sk.boxShadow = "0 4px 8px 0 #0000401a";
