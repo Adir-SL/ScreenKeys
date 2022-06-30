@@ -44,7 +44,7 @@ function styleKeys(size = 16, posx = 'center', posy = 'bottom', delay = '500', b
 
 function initKeys(size = 16, posx = 'center', posy = 'bottom', delay = '500', bg='#cbd5e1', txt='#334155'){
 
-    // size referes to the font-size (in em);
+    // size referes to the font-size (in px);
     // posx is the position in the x axis, can be 'left', 'right' or 'center';
     // posy is the position in the y axis, can be 'top', 'bottom' or 'center';
     // delay refers to the time (in milliseconds) it takes for the toast to disappear;
