@@ -1,7 +1,7 @@
 # ScreenKeys
 On screen key presses for web demonstrations and recordings.
 
-This includes a few ways to customize your experience:
+This includes a few built-in variables to customize your experience:
 size referes to the font-size (in px);
 posx is the position in the x axis, can be 'left', 'right' or 'center';
 posy is the position in the y axis, can be 'top', 'bottom' or 'center';
