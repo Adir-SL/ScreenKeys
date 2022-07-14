@@ -13,7 +13,7 @@ like so:
 
 You can also link it directly to GitHub like so:
 ```HTML
-<script src="keys.js"></script>
+<script src="https://adir-sl.github.io/ScreenKeys/keys.js"></script>
 ```
 
 ## Customizations
