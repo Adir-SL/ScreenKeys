@@ -4,6 +4,8 @@ This library provides a visual way to display on screen key presses for web demo
 The keys disappear after half a second by defaulf but it can be costumized.
 
 ## How to use
+Installation is very simple, just link to the "keys.js" file from this repo.
+'''<script src="keys.js"></script>'''
 
 This includes a few built-in variables to customize your experience:
 1. size referes to the font-size (in px);
