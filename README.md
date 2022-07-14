@@ -11,6 +11,11 @@ like so:
 <script src="keys.js"></script>
 ```
 
+You can also link it directly to GitHub like so:
+```HTML
+<script src="keys.js"></script>
+```
+
 ## Customizations
 This includes a few built-in variables to customize your experience:
 1. size referes to the font-size (in px);
