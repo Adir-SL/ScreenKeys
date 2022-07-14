@@ -5,6 +5,8 @@ The keys disappear after half a second by defaulf but it can be costumized.
 
 ## How to use
 Installation is very simple, just link to the "keys.js" file from this repo.
+
+like so:
 ```
 <script src="keys.js"></script>
 ```
