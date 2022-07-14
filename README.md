@@ -7,7 +7,7 @@ The keys disappear after half a second by defaulf but it can be costumized.
 Installation is very simple, just link to the "keys.js" file from this repo.
 
 like so:
-```
+```HTML
 <script src="keys.js"></script>
 ```
 
