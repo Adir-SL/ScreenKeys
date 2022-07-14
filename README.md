@@ -29,3 +29,9 @@ This includes a few built-in variables to customize your experience:
 ```Javascript
 initKeys(16, 'center', 'bottom', '500', '#cbd5e1', '#334155');
 ```
+1. font-size: 16px
+2. position on x: center
+3. position on x: left
+4. 500ms delay before it disappears
+5. background-color: #cbd5e1
+6. color: #334155
