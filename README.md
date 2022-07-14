@@ -24,3 +24,8 @@ This includes a few built-in variables to customize your experience:
 4. delay refers to the time (in milliseconds) it takes for the toast to disappear (e.g "500", "1000", "1500");
 5. bg is the color of the background of the keys (CSS background-color);
 6. txt is the color of the text of the keys (CSS color);
+
+## Default values
+```Javascript
+initKeys(16, 'center', 'bottom', '500', '#cbd5e1', '#334155');
+```
