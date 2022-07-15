@@ -1,4 +1,3 @@
-<!-- <img src="gitKeys.jpg" /> -->
 ![Keys example image](gitKeys.jpg)
 
 # ScreenKeys
