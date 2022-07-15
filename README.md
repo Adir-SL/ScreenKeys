@@ -6,7 +6,7 @@ The keys disappear after half a second by defaulf but it can be costumized.
 ## Live Demo
 ScreenKeys Live Website:
 
-<a href="https://adir-sl.github.io/ScreenKeys" target="_blank">ScreenKeys</a>
+<a href="https://adir-sl.github.io/ScreenKeys">ScreenKeys</a>
 
 And a working demo of this library:
 
