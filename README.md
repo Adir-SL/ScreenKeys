@@ -1,4 +1,4 @@
-<img src="gitKeys.jpg" />
+<img src="gitKeys.jpg" alt="Screen Keys example image showing Shift+A key presses"  />
 
 # ScreenKeys
 This library provides a visual way to display on screen key presses for web demonstrations and recordings.
