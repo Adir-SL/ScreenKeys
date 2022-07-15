@@ -1,3 +1,5 @@
+<img src="gitKeys.jpg" />
+
 # ScreenKeys
 This library provides a visual way to display on screen key presses for web demonstrations and recordings.
 
