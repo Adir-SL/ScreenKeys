@@ -15,6 +15,9 @@ You can also link it directly to GitHub like so:
 ```HTML
 <script src="https://adir-sl.github.io/ScreenKeys/keys.js"></script>
 ```
+```Javascript
+initKeys();
+```
 
 ## Customizations
 This includes a few built-in variables to customize your experience:
