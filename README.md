@@ -33,7 +33,7 @@ This includes a few built-in variables to customize your experience:
 5. bg is the color of the background of the keys (CSS background-color);
 6. txt is the color of the text of the keys (CSS color);
 
-## Default values
+## Default parameters
 ```Javascript
 initKeys(16, 'center', 'bottom', '500', '#cbd5e1', '#334155');
 ```
