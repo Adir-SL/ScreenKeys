@@ -4,7 +4,11 @@ This library provides a visual way to display on screen key presses for web demo
 The keys disappear after half a second by defaulf but it can be costumized.
 
 ## Live Demo
-Here you can see a working demo of this library:
+ScreenKeys Live Website:
+
+<a href="https://adir-sl.github.io/ScreenKeys" target="_blank">ScreenKeys</a>
+
+And a working demo of this library:
 
 <a href="https://codepen.io/Adir-SL/pen/poaXYzK">Codepen ScreenKeys Demo</a>
 
