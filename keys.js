@@ -54,11 +54,15 @@ function initKeys(size = 16, posx = 'center', posy = 'bottom', delay = '500', bg
     styleKeys(size, posx, posy, delay, bg, txt);
     window.addEventListener('keydown', function(event) {
         document.getElementById("keysDisplay").style.opacity = "1";
+        testKey = event.key;
+        if(testKey == " "){
+            testKey = "Space";
+        }
         
         if(document.getElementById("keysDisplay").innerText == ''){
-            document.getElementById("keysDisplay").innerText = event.key;
+            document.getElementById("keysDisplay").innerText = testKey;
         }else{
-            document.getElementById("keysDisplay").innerText += " + " + event.key;
+            document.getElementById("keysDisplay").innerText += " + " + testKey;
         }
     
         clearTimeout(document.timeMe);
