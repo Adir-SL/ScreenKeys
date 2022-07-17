@@ -48,7 +48,7 @@ function initKeys(size = 16, posx = 'center', posy = 'bottom', delay = '500', bg
     // posy is the position on the y axis, can be 'top', 'bottom' or 'center';
     // delay refers to the time (in milliseconds) it takes for the toast to disappear;
     // bg is the color of the background of the keys (CSS background-color);
-    // txt is the color of the text of the keys (CSS color);
+    // txt is the color of the keys' text (CSS color);
 
     document.getElementsByTagName("body")[0].innerHTML += "<div id='keysDisplay'></div>";
     styleKeys(size, posx, posy, delay, bg, txt);
