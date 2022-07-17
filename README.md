@@ -52,6 +52,8 @@ initKeys(size, posx, posy, delay, bg, txt)
 5. bg is the color of the background of the keys (CSS background-color);
 6. txt is the color of the keys' text (CSS color);
 
+> Notice that all parameters should be in quotes (either "xxx" or 'xxx') except for font-size, the first parameter.
+
 ## Default parameters
 ```Javascript
 initKeys(16, 'center', 'bottom', '500', '#cbd5e1', '#334155');
