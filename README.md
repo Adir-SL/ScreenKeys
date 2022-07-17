@@ -58,6 +58,8 @@ initKeys(size, posx, posy, delay, bg, txt);
 ```Javascript
 initKeys(16, 'center', 'bottom', '500', '#cbd5e1', '#334155');
 ```
+This will render as:
+
 1. font-size: 16px
 2. position on x: center
 3. position on x: left
