@@ -50,7 +50,7 @@ initKeys(size, posx, posy, delay, bg, txt)
 3. posy is the position on the y axis, can be 'top', 'bottom' or 'center';
 4. delay refers to the time (in milliseconds) it takes for the toast to disappear (e.g "500", "1000", "1500");
 5. bg is the color of the background of the keys (CSS background-color);
-6. txt is the color of the text of the keys (CSS color);
+6. txt is the color of the keys' text (CSS color);
 
 ## Default parameters
 ```Javascript
