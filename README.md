@@ -39,7 +39,7 @@ But it also has some sensible defaults so you don't have to, as mentioned in the
 
 ## Customizations
 
-This includes a few built-in variables to customize your experience:
+This function includes a few built-in variables to customize your experience:
 
 ```Javascript
 initKeys(size, posx, posy, delay, bg, txt)
