@@ -46,8 +46,8 @@ initKeys(size, posx, posy, delay, bg, txt)
 ```
 
 1. size referes to the font-size in px (e.g 10, 16, 24);
-2. posx is the position in the x axis, can be 'left', 'right' or 'center';
-3. posy is the position in the y axis, can be 'top', 'bottom' or 'center';
+2. posx is the position on the x axis, can be 'left', 'right' or 'center';
+3. posy is the position on the y axis, can be 'top', 'bottom' or 'center';
 4. delay refers to the time (in milliseconds) it takes for the toast to disappear (e.g "500", "1000", "1500");
 5. bg is the color of the background of the keys (CSS background-color);
 6. txt is the color of the text of the keys (CSS color);
