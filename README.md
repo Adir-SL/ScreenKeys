@@ -38,11 +38,13 @@ This function can be customized with the parameters mentioned below.
 But it also has some sensible defaults so you don't have to, as mentioned in the "Default parameters" section.
 
 ## Customizations
+
+This includes a few built-in variables to customize your experience:
+
 ```Javascript
 initKeys(size, posx, posy, delay, bg, txt)
 ```
 
-This includes a few built-in variables to customize your experience:
 1. size referes to the font-size in px (e.g 10, 16, 24);
 2. posx is the position in the x axis, can be 'left', 'right' or 'center';
 3. posy is the position in the y axis, can be 'top', 'bottom' or 'center';
